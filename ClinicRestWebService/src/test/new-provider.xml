@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<providerRepresentation xmlns:ns2="http://cs548.stevens.edu/clinic/service/web/rest/data">
+<ns2:id>998800</ns2:id>
+<ns2:familyName>Zhao</ns2:familyName>
+<ns2:givenName>yisheng</ns2:givenName>
+<ns2:specialization>surgeon</ns2:specialization>
+</providerRepresentation>

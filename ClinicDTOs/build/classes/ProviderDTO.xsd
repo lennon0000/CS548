@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/clinic/schemas/provider"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	jaxb:version="2.0"
+	elementFormDefault="qualified" 
+	xmlns="http://www.w3.org/2001/XMLSchema" 
+	xmlns:tns="http://www.example.org/clinic/schemas/provider">
+
+	<element name="provider-dto">
+		<complexType >
+			<sequence>
+				<element name="provider-id" type="long"></element>
+				<element name="familyName" type="string"></element>
+				<element name="givenName" type="string"></element>
+				<element name="specialization" type="string"></element>
+				<element name="treatments" type="long" minOccurs="0" maxOccurs="unbounded"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<!-- <simpleType name="specializationType">
+		<restriction base="string">
+			<enumeration value="Radiology"></enumeration>
+			<enumeration value="Surgery"></enumeration>
+			<enumeration value="Oncology"></enumeration>
+			<enumeration value="Internist"></enumeration>
+		</restriction>
+	</simpleType> -->
+</schema>

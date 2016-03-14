@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assignment3:Drugs xmlns:assignment3="http://www.example.com/xquery/clinic/Assignment3">
+	<assignment3:Drugs>
+		<t:DrugInfo xmlns:t="http://www.example.org/schemas/clinic/treatment">drug of cold</t:DrugInfo>
+		<p:Patients xmlns:p="http://www.example.org/schemas/clinic/patient">
+			<p:Patient>
+				<p:PatientId>11111111</p:PatientId>
+				<p:PatientName>Zhangsan</p:PatientName>
+				<p:diagnose>Cold</p:diagnose>
+				<pr:Provider xmlns:pr="http://www.example.org/schemas/clinic/provider">
+					<pr:ProviderId>99999999</pr:ProviderId>
+					<pr:ProviderName>Wangyisheng</pr:ProviderName>
+				</pr:Provider>
+			</p:Patient>
+			<p:Patient>
+				<p:PatientId>33333333</p:PatientId>
+				<p:PatientName>Wangwu</p:PatientName>
+				<p:diagnose>cold</p:diagnose>
+				<pr:Provider xmlns:pr="http://www.example.org/schemas/clinic/provider">
+					<pr:ProviderId>99999999</pr:ProviderId>
+					<pr:ProviderName>Wangyisheng</pr:ProviderName>
+				</pr:Provider>
+			</p:Patient>
+		</p:Patients>
+	</assignment3:Drugs>
+	<assignment3:Drugs>
+		<t:DrugInfo xmlns:t="http://www.example.org/schemas/clinic/treatment">Jinsangzi</t:DrugInfo>
+		<p:Patients xmlns:p="http://www.example.org/schemas/clinic/patient">
+			<p:Patient>
+				<p:PatientId>11111111</p:PatientId>
+				<p:PatientName>Zhangsan</p:PatientName>
+				<p:diagnose>sore throat</p:diagnose>
+				<pr:Provider xmlns:pr="http://www.example.org/schemas/clinic/provider">
+					<pr:ProviderId>99999999</pr:ProviderId>
+					<pr:ProviderName>Wangyisheng</pr:ProviderName>
+				</pr:Provider>
+			</p:Patient>
+		</p:Patients>
+	</assignment3:Drugs>
+	<assignment3:Drugs>
+		<t:DrugInfo xmlns:t="http://www.example.org/schemas/clinic/treatment">drug of fever</t:DrugInfo>
+		<p:Patients xmlns:p="http://www.example.org/schemas/clinic/patient">
+			<p:Patient>
+				<p:PatientId>33333333</p:PatientId>
+				<p:PatientName>Wangwu</p:PatientName>
+				<p:diagnose>fever</p:diagnose>
+				<pr:Provider xmlns:pr="http://www.example.org/schemas/clinic/provider">
+					<pr:ProviderId>99999999</pr:ProviderId>
+					<pr:ProviderName>Wangyisheng</pr:ProviderName>
+				</pr:Provider>
+			</p:Patient>
+		</p:Patients>
+	</assignment3:Drugs>
+	<assignment3:Drugs>
+		<t:DrugInfo xmlns:t="http://www.example.org/schemas/clinic/treatment">drug of cold</t:DrugInfo>
+		<p:Patients xmlns:p="http://www.example.org/schemas/clinic/patient">
+			<p:Patient>
+				<p:PatientId>11111111</p:PatientId>
+				<p:PatientName>Zhangsan</p:PatientName>
+				<p:diagnose>Cold</p:diagnose>
+				<pr:Provider xmlns:pr="http://www.example.org/schemas/clinic/provider">
+					<pr:ProviderId>99999999</pr:ProviderId>
+					<pr:ProviderName>Wangyisheng</pr:ProviderName>
+				</pr:Provider>
+			</p:Patient>
+			<p:Patient>
+				<p:PatientId>33333333</p:PatientId>
+				<p:PatientName>Wangwu</p:PatientName>
+				<p:diagnose>cold</p:diagnose>
+				<pr:Provider xmlns:pr="http://www.example.org/schemas/clinic/provider">
+					<pr:ProviderId>99999999</pr:ProviderId>
+					<pr:ProviderName>Wangyisheng</pr:ProviderName>
+				</pr:Provider>
+			</p:Patient>
+		</p:Patients>
+	</assignment3:Drugs>
+</assignment3:Drugs>

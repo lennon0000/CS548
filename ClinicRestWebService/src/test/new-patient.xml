@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patientRepresentation xmlns:ns2="http://cs548.stevens.edu/clinic/service/web/rest/data">
+
+<ns2:patient-id>655665</ns2:patient-id>
+<ns2:name>Zhupang</ns2:name>
+<ns2:dob>2007-11-22</ns2:dob>
+<ns2:age>7</ns2:age>
+</patientRepresentation>

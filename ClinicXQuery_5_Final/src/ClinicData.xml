@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clin:Clinic xmlns:cids="http://www.example.org/schemas/clinic/clinic_ids"
+	xmlns:clin="http://www.example.org/schemas/clinic" xmlns:pat="http://www.example.org/schemas/clinic/patient"
+	xmlns:prov="http://www.example.org/schemas/clinic/provider" xmlns:trmt="http://www.example.org/schemas/clinic/treatment"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/schemas/clinic Clinic.xsd ">
+	<pat:Patient>
+		<pat:patient-id>11111111</pat:patient-id>
+		<pat:name>Zhangsan</pat:name>
+		<pat:dob>1990-01-01</pat:dob>
+		<pat:treatments>
+			<pat:treatment>
+				<trmt:provider-id>99999999</trmt:provider-id>
+				<trmt:diagnose>Cold</trmt:diagnose>
+				<trmt:drug-treatment>
+					<trmt:name>drug of cold</trmt:name>
+					<trmt:dosage>11.2</trmt:dosage>
+				</trmt:drug-treatment>
+			</pat:treatment>
+			<pat:treatment>
+				<trmt:provider-id>99999999</trmt:provider-id>
+				<trmt:diagnose>sore throat</trmt:diagnose>
+				<trmt:drug-treatment>
+					<trmt:name>Jinsangzi</trmt:name>
+					<trmt:dosage>4.20</trmt:dosage>
+				</trmt:drug-treatment>
+			</pat:treatment>
+		</pat:treatments>
+	</pat:Patient>
+	<pat:Patient>
+		<pat:patient-id>22222222</pat:patient-id>
+		<pat:name>Lisi</pat:name>
+		<pat:dob>1989-01-01</pat:dob>
+		<pat:treatments>
+			<pat:treatment>
+				<trmt:provider-id>88888888</trmt:provider-id>
+				<trmt:diagnose>cancer</trmt:diagnose>
+				<trmt:radiology>
+					<trmt:date>2014-05-01</trmt:date>
+					<trmt:date>2014-06-01</trmt:date>
+				</trmt:radiology>
+
+			</pat:treatment>
+		</pat:treatments>
+	</pat:Patient>
+	<pat:Patient>
+		<pat:patient-id>33333333</pat:patient-id>
+		<pat:name>Wangwu</pat:name>
+		<pat:dob>1955-01-01</pat:dob>
+		<pat:treatments>
+			<pat:treatment>
+				<trmt:provider-id>88888888</trmt:provider-id>
+				<trmt:diagnose>cancer</trmt:diagnose>
+				<trmt:radiology>
+					<trmt:date>2014-06-01</trmt:date>
+				</trmt:radiology>
+
+			</pat:treatment>
+			<pat:treatment>
+				<trmt:provider-id>99999999</trmt:provider-id>
+				<trmt:diagnose>fever</trmt:diagnose>
+				<trmt:drug-treatment>
+					<trmt:name>drug of fever</trmt:name>
+					<trmt:dosage>12.22</trmt:dosage>
+				</trmt:drug-treatment>
+			</pat:treatment>
+			
+			<pat:treatment>
+				<trmt:provider-id>99999999</trmt:provider-id>
+				<trmt:diagnose>cold</trmt:diagnose>
+				<trmt:drug-treatment>
+					<trmt:name>drug of cold</trmt:name>
+					<trmt:dosage>3.11</trmt:dosage>
+				</trmt:drug-treatment>
+			</pat:treatment>
+		
+			
+		</pat:treatments>
+	</pat:Patient>
+	<pat:Patient>
+		<pat:patient-id>44444444</pat:patient-id>
+		<pat:name>Songliu</pat:name>
+		<pat:dob>2001-01-01</pat:dob>
+		<pat:treatments></pat:treatments>
+	</pat:Patient>
+	
+	
+	<prov:Provider>
+		<prov:provider-id>99999999</prov:provider-id>
+		<prov:name>Wangyisheng</prov:name>
+		<prov:specialization>Internist</prov:specialization>
+	</prov:Provider>
+	
+	<prov:Provider>
+		<prov:provider-id>88888888</prov:provider-id>
+		<prov:name>Zhangyisheng</prov:name>
+		<prov:specialization>Radiology</prov:specialization>
+	</prov:Provider>
+	
+</clin:Clinic>
